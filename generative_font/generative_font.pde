@@ -15,16 +15,10 @@ void setup()
   
   myFont = createFont("Helvetica-Bold", fontSize);
   textFont(myFont);
-  
-  //println(textAscent());
-  //println(textDescent());
  
   while(yPos < height - fontSize)
   {
-    //fill(random(0, 360), 90, 100);
-    fill(random(100, 255));
-    //rect(xPos, yPos, textWidth("R") - 1, fontSize);
-    
+    fill(random(100, 255)); 
     text(sentence.charAt(curChar), xPos, yPos + fontSize - textDescent());
     
     xPos += textWidth(sentence.charAt(curChar));
