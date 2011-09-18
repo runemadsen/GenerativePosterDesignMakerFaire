@@ -27,6 +27,8 @@ void setup()
       float s = saturation(pixels[loc]);
       float b = brightness(pixels[loc]);
       
+      h += random(-30, 30);  
+      
       fill(h, s, b);
       float ran = 0;//random(-100, 0);
       ellipse(x + random(-10, 10), y + random(-10, 10), ellipseSize + ran, ellipseSize + ran);

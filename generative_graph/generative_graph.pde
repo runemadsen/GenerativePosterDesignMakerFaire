@@ -31,5 +31,5 @@ void setup()
   
   endShape(CLOSE);
   
-  saveFrame("poster_" + year() + "_" + month()+ "_" + day() + "_" + hour() + "_" + minute() + "_" + second() + ".jpg");
+  saveFrame("poster_" + year() + "_" + month()+ "_" + day() + "_" + hour() + "_" + minute() + "_" + second() + ".png");
 }
